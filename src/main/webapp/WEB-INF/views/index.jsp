@@ -15,7 +15,7 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>honghee's</title>
+    <title>Wonder.</title>
     <link rel="icon" href="/spring/resources/img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/spring/resources/css/bootstrap.min.css">
@@ -53,46 +53,32 @@
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="/spring">Home</a>
                                 </li>
+                                
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Shop
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="category.html"> shop category</a>
-                                        <a class="dropdown-item" href="single-product.html">product details</a>
+                                        <a class="dropdown-item" href="category.html"> 침실 </a>
+                                        <a class="dropdown-item" href="category.html"> 거실 </a>
+                                        <a class="dropdown-item" href="category.html"> 서재 </a>
                                         
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="login.html"> login</a>
-                                        <a class="dropdown-item" href="tracking.html">tracking</a>
-                                        <a class="dropdown-item" href="checkout.html">product checkout</a>
-                                        <a class="dropdown-item" href="cart.html">shopping cart</a>
-                                        <a class="dropdown-item" href="confirmation.html">confirmation</a>
-                                        <a class="dropdown-item" href="elements.html">elements</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        blog
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="blog.html"> blog</a>
-                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
                                 </li>
                                 
                                 <li class="nav-item">
+                                    <a class="nav-link" href="/spring">Event</a>
+                                </li>
+                 
+                                <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/spring">My Page</a>
                                 </li>
                             </ul>
                         </div>
@@ -242,7 +228,8 @@
     </section>
     <!-- upcoming_event part start-->
 
-    <!-- product_list start-->
+
+    <!-- product_list start -->
     <section class="product_list section_padding">
         <div class="container">
             <div class="row justify-content-center">
@@ -429,8 +416,10 @@
         </div>
     </section>
     <!-- product_list part start-->
+    
+    
 
-    <!-- awesome_shop start-->
+    <!-- awesome_shop start  -->
     <section class="our_offer section_padding">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -441,8 +430,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="offer_text">
-                        <h2>Weekly Sale on
-                            60% Off All Products</h2>
+                        <h1>기간한정 20% OFF</h1>
+                        <h2>온라인 오프라인 BIG SALE </h2>
                         <div class="date_countdown">
                             <div id="timer">
                                 <div id="days" class="date"></div>
@@ -451,6 +440,9 @@
                                 <div id="seconds" class="date"></div>
                             </div>
                         </div>
+                        
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1" type="submit">행사 제품 보러가기 </button>
+                        <!--  
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="enter email address"
                                 aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -458,6 +450,8 @@
                                 <a href="#" class="input-group-text btn_2" id="basic-addon2">book now</a>
                             </div>
                         </div>
+                        -->
+                        
                     </div>
                 </div>
             </div>
@@ -465,7 +459,7 @@
     </section>
     <!-- awesome_shop part start-->
 
-    <!-- product_list part start-->
+    <!-- product_list part start
     <section class="product_list best_seller section_padding">
         <div class="container">
             <div class="row justify-content-center">
@@ -518,7 +512,7 @@
             </div>
         </div>
     </section>
-    <!-- product_list part end-->
+    product_list part end-->
 
     <!-- subscribe_area part start-->
     <section class="subscribe_area section_padding">
@@ -527,13 +521,14 @@
                 <div class="col-lg-7">
                     <div class="subscribe_area_text text-center">
                         <h5>Join Our Newsletter</h5>
-                        <h2>Subscribe to get Updated
-                            with new offers</h2>
+                        <h2>뉴스레터 신청하고</br>
+                        	최신소식과 혜택을 받아보세요!
+                        </h2>
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="enter email address"
                                 aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <a href="#" class="input-group-text btn_2" id="basic-addon2">subscribe now</a>
+                                <a href="#" class="input-group-text btn_2" id="basic-addon2"> 지금 신청하기 </a>
                             </div>
                         </div>
                     </div>
@@ -588,89 +583,51 @@
     <footer class="footer_part">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-sm-6 col-lg-2">
+                <div class="col-sm-6 col-lg-8">
                     <div class="single_footer_part">
-                        <h4>Top Products</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="">Managed Website</a></li>
-                            <li><a href="">Manage Reputation</a></li>
-                            <li><a href="">Power Tools</a></li>
-                            <li><a href="">Marketing Service</a></li>
-                        </ul>
+                        <h2>Wonder.</h2>
+                        <a> </a>
+                        <h4>가고싶은 곳, 머물고 싶은 곳</h4>
+                        <a>
+							우리나라 주거 환경 변화를 주도해 침실, 거실, 욕실 등 주택의 각 공간에 가구와 기기, 소품, 패브릭 등을
+							제공하는 홈 인테리어 기업입니다
+                        </a>
+                        </br>
+                        <a> 상 호 명 : (주)원더 </a>&nbsp;|&nbsp;
+                        <a> 대표이사 : 김홍희 </a>&nbsp;|&nbsp; 
+                        <a> 주 소 : 서울특별시 중구 명동 세종대로 110  </a>&nbsp;|&nbsp; 
+                        <a> 이메일 : wodershop@wonder.com  </a>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="single_footer_part">
-                        <h4>Quick Links</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Brand Assets</a></li>
-                            <li><a href="">Investor Relations</a></li>
-                            <li><a href="">Terms of Service</a></li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="single_footer_part">
-                        <h4>Features</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Brand Assets</a></li>
-                            <li><a href="">Investor Relations</a></li>
-                            <li><a href="">Terms of Service</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="single_footer_part">
-                        <h4>Resources</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="">Guides</a></li>
-                            <li><a href="">Research</a></li>
-                            <li><a href="">Experts</a></li>
-                            <li><a href="">Agencies</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_footer_part">
-                        <h4>Newsletter</h4>
-                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping
-                        </p>
-                        <div id="mc_embed_signup">
-                            <form target="_blank"
-                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                method="get" class="subscribe_form relative mail_part">
-                                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                    class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = ' Email Address '">
-                                <button type="submit" name="submit" id="newsletter-submit"
-                                    class="email_icon newsletter-submit button-contactForm">subscribe</button>
-                                <div class="mt-10 info"></div>
-                            </form>
-                        </div>
+                        <h5>고객문의 대표전화 </h5>
+                        <a> </a>
+                        <h4>02-1588-0000</h4>
+                        <a>평일 09:00 ~ 18:00 주말 및 공휴일 휴무</a>
                     </div>
                 </div>
             </div>
-            
         </div>
         <div class="copyright_part">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="copyright_text">
-                            <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
+                            <P>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+								All rights reserved |
+							</P>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="footer_icon social_icon">
                             <ul class="list-unstyled">
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
+                                <li><a  class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a  class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                                <li><a  class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                                <li><a  class="single_social_icon"><i class="fab fa-behance"></i></a></li>
                             </ul>
                         </div>
                     </div>
